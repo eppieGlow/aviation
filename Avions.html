@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- cette page à été réalisée par Adam -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Code_CSS_2.css">  
+</head>
+<body>
+    <div class="navbar">
+        <h1>Aviation ✈︎</h1>
+        <a id="element_1" href="Accueil.html" >Accueil</a>
+        <a id="element_2" href="Avions.html">Avions</a>
+    </div>
+    <div class="page_1"> 
+        <h1>Retrouvez une très large collection d'avions !</h1>
+        <button id="bulle_1" onclick="ligne()">Ligne</button>
+        <button id="bulle_2" onclick="_tourisme()">Tourisme</button> 
+        <button id="bulle_3" onclick="militaire()">Militaire</button>
+        <button id="bulle_4" onclick="_cargo()">Cargo</button>
+        <button id="bulle_5" onclick="_helico()">Helico</button> 
+        <button id="bulle_6" onclick="_autre()">Autres</button>
+        
+    </div>
+    <h1 id="titre">Toutes catégories</h1>
+    <div class="carroussel-container">
+        <button id="prec" class="arrow">&#9664;</button>
+        <div class="carroussel">
+            <div class="carroussel-items">
+                <button id="logo_1" onclick="logo_1()" titre="Notre choix de la collection d'Airbus"></button>
+                <button id="logo_2" onclick="logo_2()" titre="Notre choix de la collection de Boeing"></button>
+                <button id="logo_3" onclick="logo_3()" titre="Notre choix de la collection d'Embraer"></button>
+                <button id="logo_4" onclick="logo_4()" titre="Notre choix de la collection de Bombardier"></button>
+                <button id="logo_5" onclick="logo_5()" titre="Notre choix de la collection de Dassault aviation"></button> 
+                <button id="logo_6" onclick="logo_6()" titre="Notre choix de la collection de Douglas"></button>
+                <button id="logo_7" onclick="logo_7()" titre="Notre choix de la collection d'Eurofighter"></button>
+                <button id="logo_8" onclick="logo_8()" titre="Notre choix de la collection d'ATR"></button>
+                <button id="logo_9" onclick="logo_9()" titre="Notre choix de la collection de Martin Lockheed"></button>
+                <button id="logo_10" onclick="logo_10()" titre="Notre choix de la collection de Sukhoi"></button>
+            </div>
+        </div>
+        <button id="suiv" class="arrow">&#9654;</button>
+    </div>
+
+
+    <div id="bas_page">
+
+    </div>
+    <script src="Code_JS_2.js"></script>
+</body>
+</html>

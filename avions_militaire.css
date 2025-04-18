@@ -1,0 +1,91 @@
+/* NAVBAR */
+/* cette page à été réalisée par Adam */
+
+.navbar {
+    background-color: #172d4700;
+    color: black;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
+
+.navbar.hover {
+    background-color: #172d47;
+    color: white;
+}
+
+.navbar.hover a {
+    color: white;
+}
+
+.navbar:hover {
+    background-color: #172d47;
+    color: white; 
+}
+
+.navbar:hover a {
+    color: white;
+}
+
+.navbar h1 {
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    
+}
+
+.navbar a {
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;
+    color: black;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+.categories{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    top: 300px;
+    width: 400px;
+    left: 5%;
+}
+
+#titre {
+    position: relative;
+    left: 25%;
+    top: 100px;
+    font-family: "Archivo Black", serif;
+    background-color: #59aaec;
+    width: 50%;
+    height: 150px;
+    font-size: 100px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #000000;
+    border-radius: 200px;
+    text-align: center;
+}
+
+
+/* Autre */
+
+

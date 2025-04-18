@@ -1,0 +1,245 @@
+/* NAVBAR */
+/* cette page a ete réalisée par Adrien */
+
+.navbar {
+    background-color: #172d47;
+    color: white;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*margin-top: -20px;*/
+}
+
+.navbar:hover {
+    background-color: #000419;
+    /*margin-top: -10px;*/
+}
+
+.navbar h1 {
+    color: white;
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    
+}
+
+.navbar a {
+    color: white;
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+
+
+/* PAGE */
+
+.page {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    height: 1000px;
+    left: 0;
+
+
+}
+
+.page h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    left: 10%;
+    top: 5%;
+    display: flex;
+    position: relative;
+    height: 10%;
+    font-size: 250%;
+}
+
+.page h2 {
+    color: white;
+    top: 30px;
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    width: 90%;
+}
+
+#texte-lokheed {
+    position: relative;
+    display: flex;
+    top:120px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(#172d47, #0073ff, #ADD4F3);
+    width: 80%;
+    left: 5%;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+#image-lokheed {
+    position: relative;
+    display: flex;
+    top: 120px;
+    left: 74%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#titre-f22 {
+    position: relative;
+    top: 190px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    left: 5%;
+    font-size: 35px;
+}
+
+#image-f22 {
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#blueprint-f22 {
+    position: relative;
+    display: flex;
+    top: 240px;
+    left: 5%;
+    height: 400px;
+    border-radius: 50px;
+}
+
+#texte-f22 {
+    position: relative;
+    top: -460px;
+    left: 550px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 550px;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+#titre-f35 {
+    position: relative;
+    top: -300px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    left: 5%;
+    font-size: 35px;
+}
+
+#image-f35 {
+    position: relative;
+    display: flex;
+    top: -270px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#blueprint-f35 {
+    position: relative;
+    display: flex;
+    top: -250px;
+    left: 5%;
+    height: 380px;
+    border-radius: 50px;
+}
+
+#texte-f35 {
+    position: relative;
+    top: -930px;
+    left: 590px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 630px;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+#titre-sr71 {
+    position: relative;
+    top: -750px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    left: 5%;
+    font-size: 35px;
+}
+
+#image-sr71 {
+    position: relative;
+    display: flex;
+    top: -720px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#blueprint-sr71 {
+    position: relative;
+    display: flex;
+    top: -700px;
+    left: 5%;
+    height: 420px;
+    border-radius: 50px;
+}
+
+#texte-sr71 {
+    position: relative;
+    top: -1360px;
+    left: 550px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 600px;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+.raccourcis {
+    width: 200px;
+
+}
+
+/* AUTRE */
+
+body {
+    background-color: #ADD4F3;
+}

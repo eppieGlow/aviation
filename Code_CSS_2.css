@@ -1,0 +1,330 @@
+/* NAVBAR */
+/* cette page à été réalisée par Adam */
+
+.navbar {
+    background-color: #172d4700;
+    color: black;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
+
+.navbar.hover { 
+    background-color: #172d47;
+    color: white; 
+    -webkit-text-stroke-width: 0px;
+} 
+
+.navbar.hover a {
+    color: white;
+    background: none;
+    -webkit-text-stroke-width: 0px;
+
+}
+
+.navbar:hover {
+    background-color: #172d47;
+    color: white; 
+    -webkit-text-stroke-width: 0px;
+}
+
+.navbar:hover a {
+    color: white;
+    background: none;
+    -webkit-text-stroke-width: 0px;
+}
+
+.navbar h1 {
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    text-decoration: double;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: white;  
+    
+}
+
+.navbar a {
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;
+    color: black;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: white;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+
+/* PAGE */
+
+.page_1 {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    height: 1500px;
+    left: 0;
+    background-color: #ADD4F3;
+}
+
+.page_1 h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    left: 10%;
+    top: 5%;
+    display: flex;
+    position: relative;
+    height: 10%;
+    font-size: 250%;
+}
+
+.page_1 h2 {
+    color: white;
+    top: 30px;
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    width: 90%;
+}
+
+
+
+/* BULLES */
+
+#bulle_1, #bulle_2, #bulle_3, #bulle_4, #bulle_5, #bulle_6 {
+    color: white;
+    background-color: #000419;
+    width: 30%;
+    height: 150px;
+    font-family: "Archivo Black", serif;
+    position: absolute;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid ;
+    transition: all ease-in-out 300ms;
+}
+
+#bulle_1 {
+    font-size: 500%;
+    left: 2.5%;
+}
+
+#bulle_2 {
+    font-size: 400%;
+    left: 35%;
+}
+
+#bulle_3 {
+    font-size: 300%;
+    left: 67.5%;
+}
+
+#bulle_1, #bulle_2, #bulle_3 {
+    top: 250px;
+}
+
+#bulle_4 {
+    font-size: 400%;
+    left: 2.5%
+}
+
+#bulle_5 {
+    font-size: 400%;
+    left: 35%;
+}
+
+#bulle_6 {
+    font-size: 300%;
+    left: 67.5%;
+}
+
+#bulle_4, #bulle_5, #bulle_6 {
+    top: 450px;
+}
+
+#bulle_1:hover, #bulle_2:hover, #bulle_3:hover, #bulle_4:hover, #bulle_5:hover, #bulle_6:hover {
+    background-color: #01105f;
+    width: 32%;
+    height: 155px;
+    border-width: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+#bulle_1:hover {
+    left: 1%;
+}
+
+#bulle_2:hover {
+    left: 34%;
+}
+
+#bulle_3:hover {
+    left: 66.5%;
+}
+
+#bulle_4:hover {
+    left: 1%;
+}
+
+#bulle_5:hover {
+    left: 34%;
+}
+
+#bulle_6:hover {
+    left: 66.5%;
+}
+
+/* tous */
+
+#titre {
+    background-color: #267ce6;
+    color: white;
+    width: 33%;
+    left: 30%;
+    height: 5vw;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    top: 750px;
+    font-family: "Archivo Black", serif;
+    font-size: 2.5vw;
+    padding-left: 7%;
+    padding-top: 1%;
+}
+
+.carroussel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    top: 750px;
+    position: relative;
+    background-color: #267ce6;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+.carroussel {
+    flex-grow: 1;
+    overflow: hidden;
+    width: 90%;
+}
+
+.carroussel-items {
+    display: flex;
+    gap: 10px;
+    will-change: transform;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carroussel button {
+    flex: 0 0 auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carroussel button:hover {
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.arrow {
+    background: none;
+    border: #000419;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    transition: ease-in-out 200ms;
+}
+
+.arrow:hover {
+    font-size: 40px;
+    transition: ease-in-out 200ms;
+}
+
+
+#logo_1 {
+    background: url(Images/airbus.png) no-repeat center center;
+    background-size: 200%;
+}
+
+#logo_2 {
+    background: url(Images/boeing.png) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_3 {
+    background: url(Images/embraer.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_4 {
+    background: url(Images/bombardier.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_5 {
+    background: url(Images/dassault.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_6 {
+    background: url(Images/douglas.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_7 {
+    background: url(Images/eurofighter.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_8 {
+    background: url(Images/atr.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_9 {
+    background: url(Images/lockheed.png) no-repeat center center;
+    background-size: cover;
+}
+
+#logo_10 {
+    background: url(Images/sukhoi.png) no-repeat center center;
+    background-size: cover;
+}
+
+
+/* AUTRE */
+
+body {
+    background-color: white;
+}
+
+
+
+

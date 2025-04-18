@@ -1,0 +1,65 @@
+/* NAVBAR */
+/* cette page à été réalisée par Adam */
+
+.navbar {
+    background-color: #172d4700;
+    color: black;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
+
+.navbar.hover {
+    background-color: #172d47;
+    color: white;
+}
+
+.navbar.hover a {
+    color: white;
+}
+
+.navbar:hover {
+    background-color: #172d47;
+    color: white; 
+}
+
+.navbar:hover a {
+    color: white;
+}
+
+.navbar h1 {
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    
+}
+
+.navbar a {
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;
+    color: black;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+/* Autre */
+
+body {
+    background-color: aquamarine;
+}

@@ -1,0 +1,212 @@
+/* NAVBAR */
+/* cette page à été réalisée par Adam */
+
+.navbar {
+    background-color: #172d4700;
+    color: black;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
+
+.navbar.hover {
+    background-color: #172d47;
+    color: white; 
+    -webkit-text-stroke-width: 0px;
+} 
+
+.navbar.hover a {
+    color: white;
+    background: none;
+    -webkit-text-stroke-width: 0px;
+
+}
+
+.navbar:hover {
+    background-color: #172d47;
+    color: white; 
+    -webkit-text-stroke-width: 0px;
+}
+
+.navbar:hover a {
+    color: white;
+    background: none;
+    -webkit-text-stroke-width: 0px;
+}
+
+.navbar h1 {
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    text-decoration: double;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: white;  
+    
+}
+
+.navbar a {
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;
+    color: black;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: white;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+
+
+/* PAGE */
+
+.page_1 {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    height: 800px;
+    left: 0;
+    background-color: #ADD4F3;
+
+
+}
+
+.page_1 h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    left: 10%;
+    top: 0.7vw;
+    display: flex;
+    position: relative;
+    height: 10%;
+    font-size: 3vw;
+    
+}
+
+.page_1 h2 {
+    color: rgb(255, 255, 255);
+    top: 2vw;
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.4vw;
+}
+
+#texte_page_1 {
+    background-color: #73c3f8;
+    width: 55%;
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 10vw;
+    border-bottom-right-radius: 50px;
+    min-width: 200px;
+}
+
+
+
+/* BULLES */
+
+#bulle_1, #bulle_2, #bulle_3 {
+    color: white;
+    background-color: #659ABD;
+    width: 30%;
+    height: 150px;
+    font-family: "Archivo Black", serif;
+    position: absolute;
+    top: 27vw;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid ;
+    transition: all 0.3s ease-in-out;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+}
+
+#bulle_1 {
+    font-size: 5vw;
+    left: 2.5%;
+}
+
+#bulle_2 {
+    font-size: 4vw;
+    left: 35%;
+}
+
+#bulle_3 {
+    font-size: 3vw;
+    left: 67.5%;
+}
+
+#bulle_1:hover, #bulle_2:hover, #bulle_3:hover {
+    color: white;
+    width: 32%;
+    height: 155px;
+    font-family: "Archivo Black", serif;
+    position: absolute;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid ;
+    cursor: pointer;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+#bulle_1:hover {
+    left: 1%;
+    background: url('Images/avions.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+#bulle_2:hover {
+    left: 34%;
+    background: url('Images/histoire.png') no-repeat center center;
+    background-size: cover;
+}
+
+#bulle_3:hover {
+    left: 66.5%;
+    background: url('Images/actu.png') no-repeat center center;
+    background-size: cover;
+}
+
+
+/* AUTRE */
+
+#bas_page {
+    background-color: #ffffff;
+    height: 1000px;
+    display: flex;
+    position: relative;
+    top: 700px;
+}
+
+#A350 {
+    width: 700px;
+    position: relative;
+    display: flex;
+    top: 750px;
+    left: -200px;
+}
+
+

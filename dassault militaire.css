@@ -1,0 +1,205 @@
+/* NAVBAR */
+/* cette page a ete réalisée par Adrien */
+
+.navbar {
+    background-color: #172d47;
+    color: white;
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*margin-top: -20px;*/
+}
+
+.navbar:hover {
+    background-color: #000419;
+    /*margin-top: -10px;*/
+}
+
+.navbar h1 {
+    color: white;
+    font-family: "Archivo Black", serif;
+    left: 30px;
+    position: relative;
+    width: 200px;
+    
+}
+
+.navbar a {
+    color: white;
+    font-family: "Archivo Black", serif;
+    position: relative;
+    text-decoration: none;
+    display: flexbox;  
+}
+
+#element_1 {
+    top: -55px;
+    left: 80%;
+}
+
+#element_2 {
+    top: -55px;
+    left: 82%;
+}
+
+
+
+/* PAGE */
+
+.page {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    height: 1000px;
+    left: 0;
+
+
+}
+
+.page h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    left: 10%;
+    top: 5%;
+    display: flex;
+    position: relative;
+    height: 10%;
+    font-size: 250%;
+}
+
+.page h2 {
+    color: white;
+    top: 30px;
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    width: 90%;
+}
+
+#texte-dassault {
+    position: relative;
+    display: flex;
+    top:120px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 80%;
+    left: 5%;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+#image-dassault {
+    position: relative;
+    display: flex;
+    top: 120px;
+    left: 74%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#titre-rafale {
+    position: relative;
+    top: 190px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    left: 5%;
+    font-size: 35px;
+}
+
+#image-rafale {
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#blueprint-rafale {
+    position: relative;
+    display: flex;
+    top: 240px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#texte-rafale {
+    position: relative;
+    top: -340px;
+    left: 550px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 550px;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+#titre-mirage {
+    position: relative;
+    top: -200px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    left: 5%;
+    font-size: 35px;
+}
+
+#image-mirage {
+    position: relative;
+    display: flex;
+    top: -170px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#blueprint-mirage {
+    position: relative;
+    display: flex;
+    top: -130px;
+    left: 5%;
+    height: 270px;
+    border-radius: 50px;
+}
+
+#texte-mirage {
+    position: relative;
+    top: -700px;
+    left: 580px;
+    color: white;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #4d6b83;
+    width: 600px;
+    padding: 2.5%;
+    border-radius: 50px;
+
+
+}
+
+
+
+.raccourcis {
+    width: 200px;
+
+}
+
+/* AUTRE */
+
+body {
+    background-color: #ADD4F3;
+}
